@@ -1,0 +1,28 @@
+main: com.cavetale.voidgenerator.VoidGeneratorPlugin
+load: STARTUP
+
+name: VoidGenerator
+version: 0.1
+description: Generate empty worlds
+api-version: 1.17
+
+author: StarTux
+website: https://github.com/StarTux/VoidGenerator
+
+depend: []
+softdepend: []
+
+commands:
+
+  voidgenerator:
+    aliases: []
+    description: VoidGenerator Command
+    permission: voidgenerator.voidgenerator
+    usage: |-
+      /voidgenerator
+
+permissions:
+
+  voidgenerator.voidgenerator:
+    description: Use /voidgenerator
+    default: op
